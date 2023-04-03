@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	
+ 
+	  
+	<head>
+		<link rel="stylesheet" href="stylesheet.css" />
+		<title>When The Wave Comes Go Deep - A Blog</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+		<meta name = "viewport" content = "width=device-width.initial-scale=1">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="topper"><div class="title">when the wave comes</div>
+
+			<div class="dropdown">
+				<button onclick="myDropdown()" class="dropbtn">menu</button>
+				<div id="myDropdown" class="dropdown-content">
+				  <a href="index.html">home</a>
+				  <a href="#about">archive</a>
+				</div>
+			  </div>
+
+			  <script>
+				/* When the user clicks on the button, 
+				toggle between hiding and showing the dropdown content */
+				function myDropdown() {
+				  document.getElementById("myDropdown").classList.toggle("show");
+				}
+				
+				// Close the dropdown if the user clicks outside of it
+				window.onclick = function(event) {
+				  if (!event.target.matches('.dropbtn')) {
+					var dropdowns = document.getElementsByClassName("dropdown-content");
+					var i;
+					for (i = 0; i < dropdowns.length; i++) {
+					  var openDropdown = dropdowns[i];
+					  if (openDropdown.classList.contains('show')) {
+						openDropdown.classList.remove('show');
+					  }
+					}
+				  }
+				}
+
+				</script>
+			</div>	
+
+
+			<div class="header" style="margin-top:100px; margin-bottom: 70px;">Archive</div>
+
+			<div class="archive">
+			<div class="archive-link"><a href="wolfaesthetic.html">Are the Green Fields Gone?</a></div>
+			
+			<div class="dots">............................. 01/14/2021</div>
+			<div class="archive-link"><a href="moodysurfer.html">The Artist & The Sea</a></div>
+			
+			<div class="dots">...................................  05/02/2021</div>
+			<div class="archive-link"><a href="cloudhammock.html">Conscious Lungs</a></div>
+			
+			<div class="dots">......................................  06/27/2021</div>
+	
+			<div class="archive-link"><a href="oldmansea.html">The Old Man and The Sea</a></div>
+			
+			<div class="dots">..............................  06/30/2021</div>
+	
+			<div class="archive-link"><a href="politely.html">Speaking Politely</a></div>
+			
+			<div class="dots">......................................  09/07/2026</div>
+
+
+
+			
+			
+		</div>
+
+
+	</body>
+
+
+
+
+
+
+</html>	
