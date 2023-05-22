@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	
+ 
+	  
+	<head>
+		<link rel="stylesheet" href="stylesheet.css" />
+		<title>When The Wave Comes Go Deep - A Blog</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <meta name = "viewport" content = "width=device-width.initial-scale=1">
+	</head>
+
+	<body>
+		<div class="container-politely">
+			<div class="topper"><div class="title" style="color:#fff;" >when the wave comes</div> 
+            
+            <div class="dropdown" >
+				<button onclick="myDropdown()" class="dropbtn" style="color:#fff;">menu</button>
+				<div id="myDropdown" class="dropdown-content">
+				  <a href="index.html">home</a>
+				  <a href="archive.html">archive</a>
+				</div>
+			  </div>
+
+			  <script>
+				/* When the user clicks on the button, 
+				toggle between hiding and showing the dropdown content */
+				function myDropdown() {
+				  document.getElementById("myDropdown").classList.toggle("show");
+				}
+				
+				// Close the dropdown if the user clicks outside of it
+				window.onclick = function(event) {
+				  if (!event.target.matches('.dropbtn')) {
+					var dropdowns = document.getElementsByClassName("dropdown-content");
+					var i;
+					for (i = 0; i < dropdowns.length; i++) {
+					  var openDropdown = dropdowns[i];
+					  if (openDropdown.classList.contains('show')) {
+						openDropdown.classList.remove('show');
+					  }
+					}
+				  }
+				}
+				</script>
+			</div>	
+		
+
+
+			<div class="article-wolf">
+				<div class="wolf-header">Speaking Politely</div>
+
+                <div class="author">by Ernest Hemmingway</div>
+				<div class="post-body"><p>They sat on the Terrace and many of the fishermen made fun of the old man and he was not angry. Others, of the older fishermen, looked at him and were sad. But they did not show it and they spoke politely about the current and the depths they had drifted their lines at and the steady good weather and of what they had seen. The successful fishermen of that day were already in and had butchered their marlin out and carried them laid full length across two planks, with two men staggering at the end of each plank, to the fish house where they waited for the ice truck to carry them to the market in Havana. Those who had caught sharks had taken them to the shark factory on the other side of the cove where they were hoisted on a block and tackle, their livers removed, their fins cut off and their hides skinned out and their flesh cut into strips for salting.
+						<br><br>
+					When the wind was in the east a smell came across the harbour from the shark factory; but today there was only the faint edge of the odour because the wind had backed into the north and then dropped off and it was pleasant and sunny on the Terrace.
+					
+				</p></div>
+                <div class="prev"><a href = "oldmansea.html">< previous</a></div><div class="next"><a href="wolfaesthetic.html">next ></a></div>
+			</div>
+
+	
+			<footer style="padding-top: 915px;">
+				<div class="start">est. 2023 by The House of November</div>
+				<div class="end">get in touch with us</div>
+			</footer>
+
+
+		</div>
+
+	</body>
+
+
+
+
+
+
+</html>	
